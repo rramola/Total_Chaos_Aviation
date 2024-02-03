@@ -8,6 +8,8 @@ body {
     letter-spacing: 1.2px;
 }
 
+/******   Navbar   ******/
+
 .hero_container {
     top: 0;
     bottom: 0;
@@ -51,7 +53,10 @@ body {
     transform: scale(1.2);
 }
 
-.container_two {
+/******   Homepage   ******/
+
+
+.landing_page_container_one {
     width: 100%;
     height: 30em;
     background-image: url(images/image0.jpeg);
@@ -81,7 +86,7 @@ body {
     font-weight: 1500;
 }
 
-.container_three {
+.landing_page_container_two {
     display: flex;
     column-gap: 2em;
     height: 30em;
@@ -157,7 +162,7 @@ body {
     margin-bottom: 5em;
 }
 
-.container_four {
+.landing_page_container_three {
     display: flex;
     margin-top: 5em;
     justify-content: center;
@@ -167,7 +172,8 @@ body {
 
 
 }
-.container_four_squares {
+
+.landing_page_container_three_squares {
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: center;
@@ -176,7 +182,7 @@ body {
     color: white;
 }
 
-.container_four_square_one {
+.landing_page_container_three_square_one {
     height: 35em;
     display: flex;
     background-image: url(images/image1.jpeg);
@@ -188,7 +194,7 @@ body {
     align-items: center;
 }
 
-.container_four_square_one_content {
+.landing_page_container_three_square_one_content {
     display: flex;
     width: 70%;
     height: 90%;
@@ -199,7 +205,7 @@ body {
     font-weight: bold;
 }
 
-.container_four_square_two {
+.landing_page_container_three_square_two {
     display: flex;
     flex-direction: column;
     background-color: rgba(72, 68, 68, 0.568);
@@ -208,7 +214,7 @@ body {
     padding-left: 2em;
 }
 
-.container_four_square_three {
+.landing_page_container_three_square_three {
     display: flex;
     flex-direction: column;
     background-color: rgba(72, 68, 68, 0.568);
@@ -218,7 +224,7 @@ body {
     height: 100%;
 }
 
-.container_four_square_four {
+.landing_page_container_three_square_four {
     display: flex;
     background-image: url(images/image2.jpeg);
     background-repeat: no-repeat ;
@@ -231,7 +237,7 @@ body {
 }
 
 
-.container_four_square_four_content {
+.landing_page_container_three_square_four_content {
     display: flex;
     width: 70%;
     height: 90%;
@@ -242,13 +248,13 @@ body {
     font-weight: bold;
 }
 
-.container_five {
+.landing_page_container_four{
     display: flex;
     margin-top: 5em;
     justify-content: center;
 }
 
-.container_five_squares {
+.landing_page_container_four_squares {
     display: grid;
     column-gap: 5em;
     background-color: black;
@@ -263,7 +269,7 @@ body {
     padding-right: 6em;
 }
 
-.container_five_square_one {
+.landing_page_container_four_squares_square_one {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -272,7 +278,7 @@ body {
     font-size: 2em;
 }
 
-.container_five_square_two {
+.landing_page_container_four_squares_square_two {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -281,3 +287,17 @@ body {
     font-size: 2em;
 
 }
+
+
+/******   Service   ******/
+
+
+
+
+
+
+
+
+
+
+/******   About   ******/
