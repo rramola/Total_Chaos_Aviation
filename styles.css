@@ -524,6 +524,17 @@ body {
     margin-top: 5em;
 }
 
+.landing_page_container_three_square_one_content {
+    background-color: rgba(151, 208, 209, 0.3);
+    backdrop-filter: blur(7px);
+
+}
+
+
+.landing_page_container_three_square_four_content {
+    background-color: rgba(151, 208, 209, 0.3);
+    backdrop-filter: blur(7px);
+}
 
 .landing_page_container_three_square_two {
     display: none;
@@ -543,6 +554,7 @@ body {
     padding-right: 0;
 }
 
+
 .landing_page_container_four_squares_square_one {
     padding-left: 1em;
     padding-right: 1em;
@@ -553,9 +565,6 @@ body {
     padding-left: 1em;
     padding-right: 1em;
 }
-
-
-
 
 
 }
