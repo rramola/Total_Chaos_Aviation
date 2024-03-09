@@ -34,7 +34,8 @@ body {
 }
 
 .navigation_container {
-    display: flex;
+    display: block;
+    padding-top: 1.7rem;
     padding-right: 5em;
     align-items: center;
 }
@@ -53,6 +54,30 @@ body {
     transform: scale(1.2);
 }
 
+.dropdown {
+    display: none;
+}
+
+.dropdown-menu {
+    display: none;
+
+}
+
+.dropdown-menu > a {
+    display: none;
+}
+
+.dropdown-menu > a:hover {
+    color: red;
+    transform: scale(1.2);
+}
+
+.icons {
+    font-size: 2.8rem;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
 /******   Homepage   ******/
 
 
@@ -100,7 +125,6 @@ body {
     padding-left: 3em;
     padding-right: 3em;
     justify-content: center;
-    /* background-color: #008fa287; */
     background-color: black;
     color: white;
 
@@ -441,11 +465,12 @@ body {
 
 @media (max-width: 1200px) {
 
-    /******   Navbar   ******/
+/******   Navbar   ******/
 
 
 
 /******   Homepage   ******/
+
 
 .landing_page_content_container {
     display: flex;
@@ -567,4 +592,71 @@ body {
 }
 
 
+}
+
+
+@media (max-width: 768px) {
+    .navigation_container {
+        position: absolute;
+        top: 5rem;
+        left: 0;
+        width: 100%;
+        padding: 0;
+        height: 0;
+        display: none;
+        background-color: rgba(72, 68, 68, 0.644);
+        backdrop-filter: blur(7px);
+        transition: .3s ease;
+    } 
+    
+    .navigation_container a {
+        display: none;
+        font-size: 1.1rem;
+        margin: 1.5rem 0;
+        text-align: center;
+    }
+
+    .icons {
+        display: inline-flex;
+        align-items: center;
+    }
+
+    .icons #close-icon {
+        display: none;
+    }
+
+    .dropdown {
+        position: absolute;
+        top: 5rem;
+        left: 0;
+        width: 100%;
+        padding: 0;
+        height: 0;
+        display: block;
+        background-color: rgba(72, 68, 68, 0.644);
+        backdrop-filter: blur(7px);
+        transition: .3s ease;
+    }
+
+    .dropdown-menu {
+        display: block;
+        text-align: center;
+        background-color: rgba(72, 68, 68, 0.644);
+        backdrop-filter: blur(7px);
+    }
+    
+    .dropdown-menu > a {
+        padding: 2em;
+        text-decoration: none;
+        font-size: 1.2em;
+        color: white;
+        transition-duration: .5s;
+        cursor: pointer;
+    }
+    
+    .dropdown-menu > a:hover {
+        color: red;
+        transform: scale(1.2);
+    }
+    
 }
